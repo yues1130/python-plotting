@@ -12,9 +12,10 @@ release = '1.0.0'
 html_baseurl = 'https://yues1130.github.io/python-plotting/'
 extensions = [
     'sphinx.ext.githubpages',
+    'recommonmark'
 ]
 templates_path = ['_templates']
 language = 'ko'
 exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+# html_static_path = ['_static']

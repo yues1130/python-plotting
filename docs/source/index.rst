@@ -7,22 +7,24 @@
 내용 2
 내용 3
 
-doc_test 문서에 오신것을 환영합니다.
-====================================
+python-plotting 문서에 오신것을 환영합니다.
+본 문서는 python을 이용해 2차원에서 3차원 그래프까지 다양한 plotting 방법에 대해 소개합니다.
+=========================================================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: A:
+   :caption: Introduction & Overview:
 
-   A/a_1.md
-   A/a_2.md
+   pages/01_intro/intro.md
+   pages/01_intro/matplotlib.md
+   pages/01_intro/ex.md
 
 .. toctree::
    :maxdepth: 2
-   :caption: B:
+   :caption: Graph 구성 요소 이해하기:
 
-   B/b_1.md
-   B/b_2.md
+   pages/02_prop/prop.md
+   pages/02_prop/label.md
 
 Indices and tables
 ==================
